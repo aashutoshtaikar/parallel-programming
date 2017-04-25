@@ -3,8 +3,10 @@
 #include<omp.h>
 #include<math.h>
 
-int NUMT=4;
+
+int ARRAYSIZE=32000;
 double array[32000];
+
 
 float Ranf( float low, float high )
 {
@@ -15,17 +17,10 @@ float Ranf( float low, float high )
 
 int main()
 {
-
-/*
-#ifndef _OPENMP
- fprintf( stderr, "Threads = %2d; ChunkSize = %5d; Scheduling=static ; MegaMults/sec = %10.2lf\n", NUMT, CHUNKSIZE, (double)numMuled/(time1-time0)/1000000. );
-        return 1;
-#endif
-*/
-
 int i,j,prod;
 
-#pragma omp parallel for schedule(static) num_threads(NUMT)
+double time0=omp_get_wtime();
+#pragma omp parallel for schedule(dynamic, chunksize) num_threads(NUMT)
 for (i=0;i<32000-1;i++)
 {
 array[i]=Ranf(-1.f,1.f);
@@ -35,7 +30,10 @@ array[j];
 prod*=array[j];
 }
 }
+double time1=omp_get_wtime();
 
+long int numMuled = (long int)ARRAYSIZE * (long int)(ARRAYSIZE+1) / 2;  // count of how many multiplications were done:
 
+fprintf( stderr, "Threads = %2d; ChunkSize = %5d; Scheduling=static ; MegaMults/sec = %10.2lf\n", NUMT, chunksize, (double)numMuled/(time1-time0)/1000000. );
 }
 
