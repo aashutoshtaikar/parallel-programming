@@ -10,13 +10,16 @@ float	NowPrecip;		// inches of rain per month
 float	NowTemp;		// temperature this month
 float	NowHeight;		// grain height in inches
 int	NowNumDeer;		// number of deer in the current population
-
-float PrevHeight;
-
+		//
 int TmpNumDeer;
+int hunters;
+int NumDeerHunted;
+
+unsigned int seed;
 
 const float GRAIN_GROWS_PER_MONTH =	8.0;
 const float ONE_DEER_EATS_PER_MONTH = 0.5;
+//const float ONE_HUNTER_KILLS_PER_MONTH = 30.0;
 
 const float AVG_PRECIP_PER_MONTH = 6.0;	// average
 const float AMP_PRECIP_PER_MONTH = 6.0;	// plus or minus
@@ -33,7 +36,7 @@ const float MIDPRECIP = 10.0;
 float
 SQR( float x )
 {
-        return x*x;
+	return x*x;
 }
 
 float Ranf( unsigned int *seedp,  float low, float high )
@@ -46,112 +49,165 @@ float Ranf( unsigned int *seedp,  float low, float high )
 int GrainDeer()
 {
 
-		// compute a temporary next-value for this quantity
-		// based on the current state of the simulation:
-		if (NowNumDeer<NowHeight)
-		{
-			TmpNumDeer++;
-		}
-		else if (NowNumDeer>NowHeight)
-		{
-			TmpNumDeer--;
-		}
-		else if (NowNumDeer=NowHeight)
-		{
-			TmpNumDeer++;
-		}
-		// DoneComputing barrier:
-		#pragma omp barrier
-		//do somthing global
-		NowNumDeer=TmpNumDeer*1;
-		// DoneAssigning barrier:
-		#pragma omp barrier
-		//do nothing
-		#pragma omp barrier
+	// compute a temporary next-value for this quantity
+	// based on the current state of the simulation:
+	if (NowNumDeer<NowHeight)
+	{
+		TmpNumDeer++;
+	}
+	else if (NowNumDeer>NowHeight)
+	{
+		TmpNumDeer--;
+	}
+	else if (NowNumDeer=NowHeight)
+	{
+		TmpNumDeer++;
+	}
+
+
+	// DoneComputing barrier:
+	#pragma omp barrier
+	//do somthing global
+	NowNumDeer=TmpNumDeer-NumDeerHunted;
+	if (NowNumDeer<0)
+	{
+		NowNumDeer=0;
+	}
+	// DoneAssigning barrier:
+	#pragma omp barrier
+	//do nothing
+	#pragma omp barrier
 }
 
 int Grain()
 {
 	
-		// compute a temporary next-value for this quantity
-		// based on the current state of the simulation:
-		float tempFactor = exp(   -SQR(  ( NowTemp - MIDTEMP ) / 10.  )   );
-		float precipFactor = exp(   -SQR(  ( NowPrecip - MIDPRECIP ) / 10.  )   );
-		NowHeight += tempFactor * precipFactor * GRAIN_GROWS_PER_MONTH;
- 		NowHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
- 		if (NowHeight<0)
- 		{
- 			NowHeight=0;
- 		}
-		// DoneComputing barrier:-------
-		#pragma omp barrier
-		//do somthing global
- 		NowHeight = NowHeight;
- 		//PrevHeight = NowHeight - 1;
-		// DoneAssigning barrier:-------
-		#pragma omp barrier
-  		//do nothing---------
-		#pragma omp barrier
+	// compute a temporary next-value for this quantity
+	// based on the current state of the simulation:
+	float tempFactor = exp(   -SQR(  ( NowTemp - MIDTEMP ) / 10.  )   );
+	float precipFactor = exp(   -SQR(  ( NowPrecip - MIDPRECIP ) / 10.  )   );
+	NowHeight += tempFactor * precipFactor * GRAIN_GROWS_PER_MONTH;
+ 	NowHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
+ 	if (NowHeight<0)
+ 	{
+ 		NowHeight=0;
+ 	}
+ 		// DoneComputing barrier:-------
+	#pragma omp barrier
+	//do somthing global
+ 	NowHeight = NowHeight;
+ 	//PrevHeight = NowHeight - 1;
+	// DoneAssigning barrier:-------
+	#pragma omp barrier
+  	//do nothing---------
+	#pragma omp barrier
 	
 }
 
 int Watcher()
 {
-	
-		// do nothing 
-		#pragma omp barrier
-		//do nothing 
-		#pragma omp barrier
-		//print current set of global variables
+	// do nothing 
+	#pragma omp barrier
+	//do nothing 
+	#pragma omp barrier
+	//print current set of global variables
+	printf("-------------------------------------------------------------\n");
+	printf("Month:%d \n", NowMonth);
+	printf("Year:%d \n", NowYear);
+	printf("Total GrainDeers before hunting:%d\n",TmpNumDeer );
+	printf("Number of GrainDeer:%d\n",NowNumDeer );
+	printf("Number of Hunters:%d\n",hunters );
+	printf("Number of deer hunted:%d\n",NumDeerHunted );
+	printf("grain growth in cm:%f \n ",NowHeight * 2.54); 
+	printf("temperature in degrees Celcius (°C) :%f \n", (5./9.)*(NowTemp-32));
+	printf("precipitation in cm:%f \n", NowPrecip * 2.54);
+	//increment month count
+	NowMonth++;
+	//increment now year
+	if (NowMonth%12==0)
+	{
+		NowYear++;
 
-		//increment month count
-		NowMonth++;
-		if (NowMonth%12==0)
-		{
-			NowYear++;
-		printf("Number of GrainDeer:%d\n",NowNumDeer );
-		printf("grain growth :%f inches\n ",NowHeight ); 
-		printf("temperature :%f degrees Fahrenheit (°F)\n", NowTemp );
-		printf("precipitation:%f inches\n", NowPrecip);
-		}
-		//compute new temperature and precipitation
-		float ang = (  30.*(float)NowMonth + 15.  ) * ( M_PI / 180. );
-		float temp = AVG_TEMP - AMP_TEMP * cos( ang );
-		unsigned int seed = 0;
-		NowTemp = temp + Ranf( &seed, -RANDOM_TEMP, RANDOM_TEMP );
-		float precip = AVG_PRECIP_PER_MONTH + AMP_PRECIP_PER_MONTH * sin( ang );
-		NowPrecip = precip + Ranf( &seed,  -RANDOM_PRECIP, RANDOM_PRECIP );
-		if( NowPrecip < 0. )
-		{
-			NowPrecip = 0.;
-		}
-		// DonePrinting barrier:
-		#pragma omp barrier
+	}
+	//compute new temperature and precipitation
+	float ang = (  30.*(float)NowMonth + 15.  ) * ( M_PI / 180. );
+	float temp = AVG_TEMP - AMP_TEMP * cos( ang );
+	NowTemp = temp + Ranf( &seed, -RANDOM_TEMP, RANDOM_TEMP );
+	float precip = AVG_PRECIP_PER_MONTH + AMP_PRECIP_PER_MONTH * sin( ang );
+	NowPrecip = precip + Ranf( &seed,  -RANDOM_PRECIP, RANDOM_PRECIP );
+	if( NowPrecip < 0. )
+	{
+		NowPrecip = 0.;
+	}
+	// DonePrinting barrier:
+	#pragma omp barrier
 	
 }
-
-/*
-int MyAgent()
+int randomhuntersSummer()
 {
+	return rand() % 5;
+}
+int randomhunters()
+{
+	return rand() % 10;
+}
+
+int huntprobability()
+{
+	return rand() % 2;
+}
+
+int hunterguard()
+{
+	NumDeerHunted=0;
 	
-		// compute a temporary next-value for this quantity
-		// based on the current state of the simulation:
+	// compute a temporary next-value for this quantity
+	// based on the current state of the simulation:
+	if (NowMonth%5==0 || NowMonth%6==0 || NowMonth%7==0 || NowMonth%8==0 ) // less hunters in summer 
+	{
+		hunters=randomhuntersSummer();	
+		
+		for (int i=0;i<hunters;i++)
+		{
+			int huntsuccess=huntprobability();
+			if (huntsuccess==1)
+			{
+				NumDeerHunted++;
+			}
+		}
+
+	}
+	else 
+	{
+		hunters=randomhunters();	
+		
+		for (int i=0;i<hunters;i++)
+		{
+			int huntsuccess=huntprobability();
+			if (huntsuccess==1)
+			{
+				NumDeerHunted++;
+			}
+		}
+	}
+
+	
+	
+
+	// DoneComputing barrier:
+	#pragma omp barrier
+	NumDeerHunted=NumDeerHunted;
+
+	// DoneAssigning barrier:
+	#pragma omp barrier
 		
 
-		// DoneComputing barrier:
-		#pragma omp barrier
+	// DonePrinting barrier:
+	#pragma omp barrier
 		
-
-		// DoneAssigning barrier:
-		#pragma omp barrier
-		
-
-		// DonePrinting barrier:
-		#pragma omp barrier
-			
 	
 }
-*/
+
 
 int main(int argc, char const *argv[])
 {
@@ -163,13 +219,13 @@ int main(int argc, char const *argv[])
 	// starting state (feel free to change this if you want):
 	NowNumDeer = 1;
 	NowHeight =  1.;
-	PrevHeight = 1.;
+
 	TmpNumDeer = 1;
 
 	float ang = ( 30.*(float)NowMonth + 15.  ) * ( M_PI / 180. );
 
 	float temp = AVG_TEMP - AMP_TEMP * cos( ang );
-	unsigned int seed = 0;
+	seed = 0;
 	NowTemp = temp + Ranf( &seed, -RANDOM_TEMP, RANDOM_TEMP );
 
 	float precip = AVG_PRECIP_PER_MONTH + AMP_PRECIP_PER_MONTH * sin( ang );
@@ -179,34 +235,35 @@ int main(int argc, char const *argv[])
 		NowPrecip = 0.; 
 	}
 
-	omp_set_num_threads( 3 );	// same as # of sections
+	omp_set_num_threads( 4 );	// same as # of sections
 	while( NowYear < 2023 )
 	{	
-	#pragma omp parallel sections
-	{
-		#pragma omp section
+		#pragma omp parallel sections
 		{
-			GrainDeer( );
-		}
+			#pragma omp section
+			{
+				GrainDeer( );
+			}
 
-		#pragma omp section
-		{
-			Grain( );
-		}
+			#pragma omp section
+			{
+				Grain( );
+			}
 
-		#pragma omp section
-		{
-			Watcher( );
-		}
+			#pragma omp section
+			{
+				Watcher( );
+			}
 
-		/*#pragma omp section
-		{
-			MyAgent( );	// your own
-		}*/
-	}       // implied barrier -- all functions must return in order
-	// to allow any of them to get past here
+			#pragma omp section
+			{
+				hunterguard( );	// your own
+			}
+		}       // implied barrier -- all functions must return in order
+		// to allow any of them to get past here
 	
 	}
+
 	return 0;
 }
 

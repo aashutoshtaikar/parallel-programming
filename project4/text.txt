@@ -1,0 +1,648 @@
+-------------------------------------------------------------
+Month:0 
+Year:2017 
+Number of GrainDeer:0
+Number of Hunters:3
+Number of deer hunted:2
+grain growth in inches:1.750753 
+ temperature in degrees Celcius (°C) :-6.282825 
+precipitation in inches:22.227524 
+-------------------------------------------------------------
+Month:1 
+Year:2017 
+Number of GrainDeer:2
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:4.451464 
+ temperature in degrees Celcius (°C) :-3.407059 
+precipitation in inches:29.059428 
+-------------------------------------------------------------
+Month:2 
+Year:2017 
+Number of GrainDeer:0
+Number of Hunters:9
+Number of deer hunted:4
+grain growth in inches:16.136641 
+ temperature in degrees Celcius (°C) :1.573917 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:3 
+Year:2017 
+Number of GrainDeer:2
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:30.334069 
+ temperature in degrees Celcius (°C) :7.325450 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:4 
+Year:2017 
+Number of GrainDeer:0
+Number of Hunters:8
+Number of deer hunted:5
+grain growth in inches:30.480412 
+ temperature in degrees Celcius (°C) :12.306425 
+precipitation in inches:29.059428 
+-------------------------------------------------------------
+Month:5 
+Year:2017 
+Number of GrainDeer:4
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in inches:30.957674 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:22.227524 
+-------------------------------------------------------------
+Month:6 
+Year:2017 
+Number of GrainDeer:5
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:26.278696 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:14.338718 
+-------------------------------------------------------------
+Month:7 
+Year:2017 
+Number of GrainDeer:7
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in inches:21.598454 
+ temperature in degrees Celcius (°C) :12.306425 
+precipitation in inches:7.506814 
+-------------------------------------------------------------
+Month:8 
+Year:2017 
+Number of GrainDeer:5
+Number of Hunters:4
+Number of deer hunted:3
+grain growth in inches:20.123515 
+ temperature in degrees Celcius (°C) :7.325450 
+precipitation in inches:3.562411 
+-------------------------------------------------------------
+Month:9 
+Year:2017 
+Number of GrainDeer:6
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in inches:21.203071 
+ temperature in degrees Celcius (°C) :1.573917 
+precipitation in inches:3.562411 
+-------------------------------------------------------------
+Month:10 
+Year:2017 
+Number of GrainDeer:10
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:15.261762 
+ temperature in degrees Celcius (°C) :-3.407057 
+precipitation in inches:7.506812 
+-------------------------------------------------------------
+Month:11 
+Year:2017 
+Number of GrainDeer:6
+Number of Hunters:6
+Number of deer hunted:3
+grain growth in inches:2.965719 
+ temperature in degrees Celcius (°C) :-6.282827 
+precipitation in inches:14.338721 
+-------------------------------------------------------------
+Month:12 
+Year:2018 
+Number of GrainDeer:8
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-6.282825 
+precipitation in inches:22.227524 
+-------------------------------------------------------------
+Month:13 
+Year:2018 
+Number of GrainDeer:5
+Number of Hunters:4
+Number of deer hunted:2
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-3.407059 
+precipitation in inches:29.059428 
+-------------------------------------------------------------
+Month:14 
+Year:2018 
+Number of GrainDeer:3
+Number of Hunters:4
+Number of deer hunted:3
+grain growth in inches:7.875171 
+ temperature in degrees Celcius (°C) :1.573914 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:15 
+Year:2018 
+Number of GrainDeer:6
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:18.262606 
+ temperature in degrees Celcius (°C) :7.325448 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:16 
+Year:2018 
+Number of GrainDeer:8
+Number of Hunters:2
+Number of deer hunted:0
+grain growth in inches:13.328954 
+ temperature in degrees Celcius (°C) :12.306421 
+precipitation in inches:29.059433 
+-------------------------------------------------------------
+Month:17 
+Year:2018 
+Number of GrainDeer:6
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:3.646216 
+ temperature in degrees Celcius (°C) :15.182190 
+precipitation in inches:22.227529 
+-------------------------------------------------------------
+Month:18 
+Year:2018 
+Number of GrainDeer:6
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :15.182190 
+precipitation in inches:14.338712 
+-------------------------------------------------------------
+Month:19 
+Year:2018 
+Number of GrainDeer:2
+Number of Hunters:8
+Number of deer hunted:3
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :12.306421 
+precipitation in inches:7.506810 
+-------------------------------------------------------------
+Month:20 
+Year:2018 
+Number of GrainDeer:3
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:4.875066 
+ temperature in degrees Celcius (°C) :7.325448 
+precipitation in inches:3.562410 
+-------------------------------------------------------------
+Month:21 
+Year:2018 
+Number of GrainDeer:3
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in inches:8.494617 
+ temperature in degrees Celcius (°C) :1.573914 
+precipitation in inches:3.562412 
+-------------------------------------------------------------
+Month:22 
+Year:2018 
+Number of GrainDeer:0
+Number of Hunters:9
+Number of deer hunted:5
+grain growth in inches:6.363307 
+ temperature in degrees Celcius (°C) :-3.407059 
+precipitation in inches:7.506814 
+-------------------------------------------------------------
+Month:23 
+Year:2018 
+Number of GrainDeer:5
+Number of Hunters:2
+Number of deer hunted:0
+grain growth in inches:6.767264 
+ temperature in degrees Celcius (°C) :-6.282825 
+precipitation in inches:14.338718 
+-------------------------------------------------------------
+Month:24 
+Year:2019 
+Number of GrainDeer:4
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in inches:0.898016 
+ temperature in degrees Celcius (°C) :-6.282827 
+precipitation in inches:22.227519 
+-------------------------------------------------------------
+Month:25 
+Year:2019 
+Number of GrainDeer:2
+Number of Hunters:1
+Number of deer hunted:1
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-3.407061 
+precipitation in inches:29.059425 
+-------------------------------------------------------------
+Month:26 
+Year:2019 
+Number of GrainDeer:0
+Number of Hunters:5
+Number of deer hunted:3
+grain growth in inches:11.685167 
+ temperature in degrees Celcius (°C) :1.573912 
+precipitation in inches:33.003829 
+-------------------------------------------------------------
+Month:27 
+Year:2019 
+Number of GrainDeer:2
+Number of Hunters:1
+Number of deer hunted:1
+grain growth in inches:25.882582 
+ temperature in degrees Celcius (°C) :7.325456 
+precipitation in inches:33.003829 
+-------------------------------------------------------------
+Month:28 
+Year:2019 
+Number of GrainDeer:2
+Number of Hunters:2
+Number of deer hunted:2
+grain growth in inches:26.028920 
+ temperature in degrees Celcius (°C) :12.306430 
+precipitation in inches:29.059425 
+-------------------------------------------------------------
+Month:29 
+Year:2019 
+Number of GrainDeer:1
+Number of Hunters:5
+Number of deer hunted:4
+grain growth in inches:23.966182 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:22.227519 
+-------------------------------------------------------------
+Month:30 
+Year:2019 
+Number of GrainDeer:5
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:23.097207 
+ temperature in degrees Celcius (°C) :15.182190 
+precipitation in inches:14.338717 
+-------------------------------------------------------------
+Month:31 
+Year:2019 
+Number of GrainDeer:6
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:18.416960 
+ temperature in degrees Celcius (°C) :12.306434 
+precipitation in inches:7.506824 
+-------------------------------------------------------------
+Month:32 
+Year:2019 
+Number of GrainDeer:8
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in inches:18.212018 
+ temperature in degrees Celcius (°C) :7.325452 
+precipitation in inches:3.562412 
+-------------------------------------------------------------
+Month:33 
+Year:2019 
+Number of GrainDeer:3
+Number of Hunters:9
+Number of deer hunted:4
+grain growth in inches:15.481562 
+ temperature in degrees Celcius (°C) :1.573908 
+precipitation in inches:3.562415 
+-------------------------------------------------------------
+Month:34 
+Year:2019 
+Number of GrainDeer:7
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:13.350253 
+ temperature in degrees Celcius (°C) :-3.407057 
+precipitation in inches:7.506810 
+-------------------------------------------------------------
+Month:35 
+Year:2019 
+Number of GrainDeer:6
+Number of Hunters:1
+Number of deer hunted:1
+grain growth in inches:4.864209 
+ temperature in degrees Celcius (°C) :-6.282828 
+precipitation in inches:14.338727 
+-------------------------------------------------------------
+Month:36 
+Year:2020 
+Number of GrainDeer:6
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-6.282828 
+precipitation in inches:22.227514 
+-------------------------------------------------------------
+Month:37 
+Year:2020 
+Number of GrainDeer:3
+Number of Hunters:9
+Number of deer hunted:2
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-3.407057 
+precipitation in inches:29.059433 
+-------------------------------------------------------------
+Month:38 
+Year:2020 
+Number of GrainDeer:2
+Number of Hunters:4
+Number of deer hunted:2
+grain growth in inches:10.415155 
+ temperature in degrees Celcius (°C) :1.573908 
+precipitation in inches:33.003829 
+-------------------------------------------------------------
+Month:39 
+Year:2020 
+Number of GrainDeer:4
+Number of Hunters:1
+Number of deer hunted:1
+grain growth in inches:22.072577 
+ temperature in degrees Celcius (°C) :7.325452 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:40 
+Year:2020 
+Number of GrainDeer:6
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:19.678932 
+ temperature in degrees Celcius (°C) :12.306417 
+precipitation in inches:29.059437 
+-------------------------------------------------------------
+Month:41 
+Year:2020 
+Number of GrainDeer:2
+Number of Hunters:9
+Number of deer hunted:5
+grain growth in inches:12.536193 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:22.227524 
+-------------------------------------------------------------
+Month:42 
+Year:2020 
+Number of GrainDeer:5
+Number of Hunters:3
+Number of deer hunted:3
+grain growth in inches:10.397218 
+ temperature in degrees Celcius (°C) :15.182190 
+precipitation in inches:14.338707 
+-------------------------------------------------------------
+Month:43 
+Year:2020 
+Number of GrainDeer:4
+Number of Hunters:5
+Number of deer hunted:3
+grain growth in inches:5.716977 
+ temperature in degrees Celcius (°C) :12.306425 
+precipitation in inches:7.506817 
+-------------------------------------------------------------
+Month:44 
+Year:2020 
+Number of GrainDeer:2
+Number of Hunters:8
+Number of deer hunted:4
+grain growth in inches:8.052046 
+ temperature in degrees Celcius (°C) :7.325444 
+precipitation in inches:3.562409 
+-------------------------------------------------------------
+Month:45 
+Year:2020 
+Number of GrainDeer:7
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:12.941606 
+ temperature in degrees Celcius (°C) :1.573921 
+precipitation in inches:3.562409 
+-------------------------------------------------------------
+Month:46 
+Year:2020 
+Number of GrainDeer:5
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in inches:5.730293 
+ temperature in degrees Celcius (°C) :-3.407061 
+precipitation in inches:7.506818 
+-------------------------------------------------------------
+Month:47 
+Year:2020 
+Number of GrainDeer:2
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-6.282824 
+precipitation in inches:14.338708 
+-------------------------------------------------------------
+Month:48 
+Year:2021 
+Number of GrainDeer:3
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-6.282825 
+precipitation in inches:22.227524 
+-------------------------------------------------------------
+Month:49 
+Year:2021 
+Number of GrainDeer:3
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-3.407065 
+precipitation in inches:29.059418 
+-------------------------------------------------------------
+Month:50 
+Year:2021 
+Number of GrainDeer:1
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in inches:10.415177 
+ temperature in degrees Celcius (°C) :1.573917 
+precipitation in inches:33.003831 
+-------------------------------------------------------------
+Month:51 
+Year:2021 
+Number of GrainDeer:2
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:23.342584 
+ temperature in degrees Celcius (°C) :7.325459 
+precipitation in inches:33.003829 
+-------------------------------------------------------------
+Month:52 
+Year:2021 
+Number of GrainDeer:1
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in inches:23.488927 
+ temperature in degrees Celcius (°C) :12.306425 
+precipitation in inches:29.059430 
+-------------------------------------------------------------
+Month:53 
+Year:2021 
+Number of GrainDeer:5
+Number of Hunters:3
+Number of deer hunted:0
+grain growth in inches:22.696190 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:22.227514 
+-------------------------------------------------------------
+Month:54 
+Year:2021 
+Number of GrainDeer:5
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:16.747212 
+ temperature in degrees Celcius (°C) :15.182194 
+precipitation in inches:14.338725 
+-------------------------------------------------------------
+Month:55 
+Year:2021 
+Number of GrainDeer:7
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:12.066974 
+ temperature in degrees Celcius (°C) :12.306421 
+precipitation in inches:7.506809 
+-------------------------------------------------------------
+Month:56 
+Year:2021 
+Number of GrainDeer:5
+Number of Hunters:1
+Number of deer hunted:1
+grain growth in inches:10.592025 
+ temperature in degrees Celcius (°C) :7.325459 
+precipitation in inches:3.562414 
+-------------------------------------------------------------
+Month:57 
+Year:2021 
+Number of GrainDeer:5
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:11.671578 
+ temperature in degrees Celcius (°C) :1.573914 
+precipitation in inches:3.562412 
+-------------------------------------------------------------
+Month:58 
+Year:2021 
+Number of GrainDeer:2
+Number of Hunters:8
+Number of deer hunted:2
+grain growth in inches:7.000272 
+ temperature in degrees Celcius (°C) :-3.407052 
+precipitation in inches:7.506804 
+-------------------------------------------------------------
+Month:59 
+Year:2021 
+Number of GrainDeer:4
+Number of Hunters:6
+Number of deer hunted:1
+grain growth in inches:4.864228 
+ temperature in degrees Celcius (°C) :-6.282825 
+precipitation in inches:14.338718 
+-------------------------------------------------------------
+Month:60 
+Year:2022 
+Number of GrainDeer:4
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:0.264981 
+ temperature in degrees Celcius (°C) :-6.282823 
+precipitation in inches:22.227534 
+-------------------------------------------------------------
+Month:61 
+Year:2022 
+Number of GrainDeer:0
+Number of Hunters:6
+Number of deer hunted:3
+grain growth in inches:0.000000 
+ temperature in degrees Celcius (°C) :-3.407061 
+precipitation in inches:29.059425 
+-------------------------------------------------------------
+Month:62 
+Year:2022 
+Number of GrainDeer:1
+Number of Hunters:3
+Number of deer hunted:2
+grain growth in inches:14.225139 
+ temperature in degrees Celcius (°C) :1.573902 
+precipitation in inches:33.003826 
+-------------------------------------------------------------
+Month:63 
+Year:2022 
+Number of GrainDeer:3
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:27.152526 
+ temperature in degrees Celcius (°C) :7.325467 
+precipitation in inches:33.003824 
+-------------------------------------------------------------
+Month:64 
+Year:2022 
+Number of GrainDeer:2
+Number of Hunters:4
+Number of deer hunted:3
+grain growth in inches:26.028864 
+ temperature in degrees Celcius (°C) :12.306430 
+precipitation in inches:29.059423 
+-------------------------------------------------------------
+Month:65 
+Year:2022 
+Number of GrainDeer:5
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in inches:23.966127 
+ temperature in degrees Celcius (°C) :15.182190 
+precipitation in inches:22.227534 
+-------------------------------------------------------------
+Month:66 
+Year:2022 
+Number of GrainDeer:7
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in inches:18.017149 
+ temperature in degrees Celcius (°C) :15.182198 
+precipitation in inches:14.338744 
+-------------------------------------------------------------
+Month:67 
+Year:2022 
+Number of GrainDeer:8
+Number of Hunters:6
+Number of deer hunted:0
+grain growth in inches:10.796914 
+ temperature in degrees Celcius (°C) :12.306417 
+precipitation in inches:7.506802 
+-------------------------------------------------------------
+Month:68 
+Year:2022 
+Number of GrainDeer:6
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in inches:8.051976 
+ temperature in degrees Celcius (°C) :7.325450 
+precipitation in inches:3.562412 
+-------------------------------------------------------------
+Month:69 
+Year:2022 
+Number of GrainDeer:4
+Number of Hunters:5
+Number of deer hunted:2
+grain growth in inches:7.861543 
+ temperature in degrees Celcius (°C) :1.573927 
+precipitation in inches:3.562407 
+-------------------------------------------------------------
+Month:70 
+Year:2022 
+Number of GrainDeer:3
+Number of Hunters:3
+Number of deer hunted:2
+grain growth in inches:4.460223 
+ temperature in degrees Celcius (°C) :-3.407071 
+precipitation in inches:7.506832 
+-------------------------------------------------------------
+Month:71 
+Year:2022 
+Number of GrainDeer:1
+Number of Hunters:6
+Number of deer hunted:3
+grain growth in inches:1.054179 
+ temperature in degrees Celcius (°C) :-6.282828 
+precipitation in inches:14.338727 
