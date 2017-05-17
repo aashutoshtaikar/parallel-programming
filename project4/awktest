@@ -1,9 +1,9 @@
 #!/bin/bash
 
 awk -F: '/Month/ {print $2}' text2.txt>Month
-awk -F: '/Year/ {print $2}' text2.txt>year
 awk -F: '/Number of GrainDeer/ {print $2}' text2.txt>Numberofgraindeer
 awk -F: '/Number of deer hunted/ {print $2}' text2.txt>numberofdeerhunted
 awk -F: '/grain growth/ {print $2}' text2.txt>graingrowth
 awk -F: '/temperature/ {print $2}' text2.txt>temperature
 awk -F: '/precipitation/ {print $2}' text2.txt>precipitation
+awk -F: '/Total GrainDeers before hunting/ {print $2}' text2.txt>tmpnumdeer

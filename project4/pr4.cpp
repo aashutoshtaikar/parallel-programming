@@ -9,11 +9,13 @@ int	NowMonth;		// 0 - 11
 float	NowPrecip;		// inches of rain per month
 float	NowTemp;		// temperature this month
 float	NowHeight;		// grain height in inches
-int	NowNumDeer;		// number of deer in the current population
-		//
-int TmpNumDeer;
-int hunters;
-int NumDeerHunted;
+float	TmpNowHeight;
+
+int		NowNumDeer;		// number of deer in the current population
+int 	TmpNumDeer;
+
+int 	hunters;
+int 	NumDeerHunted;
 
 unsigned int seed;
 
@@ -86,16 +88,16 @@ int Grain()
 	// based on the current state of the simulation:
 	float tempFactor = exp(   -SQR(  ( NowTemp - MIDTEMP ) / 10.  )   );
 	float precipFactor = exp(   -SQR(  ( NowPrecip - MIDPRECIP ) / 10.  )   );
-	NowHeight += tempFactor * precipFactor * GRAIN_GROWS_PER_MONTH;
- 	NowHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
- 	if (NowHeight<0)
+	TmpNowHeight += tempFactor * precipFactor * GRAIN_GROWS_PER_MONTH;
+ 	TmpNowHeight -= (float)NowNumDeer * ONE_DEER_EATS_PER_MONTH;
+ 	if (TmpNowHeight<0)
  	{
- 		NowHeight=0;
+ 		TmpNowHeight=0;
  	}
  		// DoneComputing barrier:-------
 	#pragma omp barrier
 	//do somthing global
- 	NowHeight = NowHeight;
+ 	NowHeight = TmpNowHeight;
  	//PrevHeight = NowHeight - 1;
 	// DoneAssigning barrier:-------
 	#pragma omp barrier
@@ -143,52 +145,45 @@ int Watcher()
 	#pragma omp barrier
 	
 }
-int randomhuntersSummer()
-{
-	return rand() % 5;
-}
-int randomhunters()
-{
-	return rand() % 10;
-}
 
-int huntprobability()
-{
-	return rand() % 2;
-}
 
 int hunterguard()
 {
+
 	NumDeerHunted=0;
-	
+	int TmpDeerTobeKilled=TmpNumDeer; // temporary variable to store the temporary number of deer from the graindeer used for 
 	// compute a temporary next-value for this quantity
 	// based on the current state of the simulation:
-	if (NowMonth%5==0 || NowMonth%6==0 || NowMonth%7==0 || NowMonth%8==0 ) // less hunters in summer 
+	if (NowMonth%5==0 || NowMonth%6==0 || NowMonth%7==0 || NowMonth%8==0 && TmpNumDeer<=4) // less hunters in summer for less deers: May, June, July, August
 	{
-		hunters=randomhuntersSummer();	
-		
-		for (int i=0;i<hunters;i++)
-		{
-			int huntsuccess=huntprobability();
-			if (huntsuccess==1)
+
+		hunters=rand() % 8;	
+
+			for (int i=0;i<=TmpDeerTobeKilled && i<=hunters;i++)
 			{
-				NumDeerHunted++;
+				int huntsuccess=rand() % 2; // probability of getting killed 0 or 1
+				if (huntsuccess==1)
+				{
+					NumDeerHunted++;
+					TmpDeerTobeKilled--;
+				}
 			}
-		}
 
 	}
+
 	else 
 	{
-		hunters=randomhunters();	
-		
-		for (int i=0;i<hunters;i++)
-		{
-			int huntsuccess=huntprobability();
-			if (huntsuccess==1)
+		hunters=TmpNumDeer;	
+
+			for (int i=0;i<=TmpDeerTobeKilled && i<=hunters;i++)
 			{
-				NumDeerHunted++;
+				int huntsuccess=rand() % 2; // probability of getting killed 0 or 1
+				if (huntsuccess==1)
+				{
+					NumDeerHunted++;
+					TmpDeerTobeKilled--;
+				}
 			}
-		}
 	}
 
 	
@@ -221,11 +216,11 @@ int main(int argc, char const *argv[])
 	NowHeight =  1.;
 
 	TmpNumDeer = 1;
-
+	seed = 0;
 	float ang = ( 30.*(float)NowMonth + 15.  ) * ( M_PI / 180. );
 
 	float temp = AVG_TEMP - AMP_TEMP * cos( ang );
-	seed = 0;
+	
 	NowTemp = temp + Ranf( &seed, -RANDOM_TEMP, RANDOM_TEMP );
 
 	float precip = AVG_PRECIP_PER_MONTH + AMP_PRECIP_PER_MONTH * sin( ang );

@@ -2,198 +2,198 @@
 Month:0 
 Year:2017 
 Total GrainDeers before hunting:2
-Number of GrainDeer:0
-Number of Hunters:3
-Number of deer hunted:2
+Number of GrainDeer:1
+Number of Hunters:7
+Number of deer hunted:1
 grain growth in cm:1.750753 
  temperature in degrees Celcius (°C) :-6.282825 
 precipitation in cm:22.227524 
 -------------------------------------------------------------
 Month:1 
 Year:2017 
-Total GrainDeers before hunting:3
-Number of GrainDeer:2
-Number of Hunters:3
+Total GrainDeers before hunting:1
+Number of GrainDeer:0
+Number of Hunters:1
 Number of deer hunted:1
-grain growth in cm:20.457758 
+grain growth in cm:19.187758 
  temperature in degrees Celcius (°C) :5.861134 
 precipitation in cm:22.022624 
 -------------------------------------------------------------
 Month:2 
 Year:2017 
-Total GrainDeers before hunting:4
+Total GrainDeers before hunting:2
 Number of GrainDeer:0
-Number of Hunters:9
-Number of deer hunted:4
-grain growth in cm:24.866481 
+Number of Hunters:2
+Number of deer hunted:2
+grain growth in cm:26.136481 
  temperature in degrees Celcius (°C) :10.051371 
 precipitation in cm:31.327993 
 -------------------------------------------------------------
 Month:3 
 Year:2017 
-Total GrainDeers before hunting:5
-Number of GrainDeer:4
-Number of Hunters:2
+Total GrainDeers before hunting:3
+Number of GrainDeer:2
+Number of Hunters:3
 Number of deer hunted:1
-grain growth in cm:27.535013 
+grain growth in cm:28.805013 
  temperature in degrees Celcius (°C) :12.074157 
 precipitation in cm:35.038355 
 -------------------------------------------------------------
 Month:4 
 Year:2017 
-Total GrainDeers before hunting:6
-Number of GrainDeer:1
-Number of Hunters:8
-Number of deer hunted:5
-grain growth in cm:22.465070 
+Total GrainDeers before hunting:4
+Number of GrainDeer:2
+Number of Hunters:4
+Number of deer hunted:2
+grain growth in cm:26.275070 
  temperature in degrees Celcius (°C) :19.769329 
 precipitation in cm:24.332943 
 -------------------------------------------------------------
 Month:5 
 Year:2017 
-Total GrainDeers before hunting:7
-Number of GrainDeer:6
-Number of Hunters:4
-Number of deer hunted:1
-grain growth in cm:21.246843 
+Total GrainDeers before hunting:5
+Number of GrainDeer:3
+Number of Hunters:2
+Number of deer hunted:2
+grain growth in cm:23.786843 
  temperature in degrees Celcius (°C) :17.965813 
 precipitation in cm:19.783997 
 -------------------------------------------------------------
 Month:6 
 Year:2017 
-Total GrainDeers before hunting:8
-Number of GrainDeer:7
-Number of Hunters:2
+Total GrainDeers before hunting:6
+Number of GrainDeer:5
+Number of Hunters:4
 Number of deer hunted:1
-grain growth in cm:13.666591 
+grain growth in cm:20.016591 
  temperature in degrees Celcius (°C) :17.882678 
 precipitation in cm:9.623411 
 -------------------------------------------------------------
 Month:7 
 Year:2017 
 Total GrainDeers before hunting:7
-Number of GrainDeer:7
-Number of Hunters:1
-Number of deer hunted:0
-grain growth in cm:4.793477 
+Number of GrainDeer:4
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in cm:13.683477 
  temperature in degrees Celcius (°C) :18.343421 
 precipitation in cm:2.206547 
 -------------------------------------------------------------
 Month:8 
 Year:2017 
-Total GrainDeers before hunting:6
-Number of GrainDeer:3
-Number of Hunters:4
+Total GrainDeers before hunting:8
+Number of GrainDeer:5
+Number of Hunters:8
 Number of deer hunted:3
-grain growth in cm:0.000000 
+grain growth in cm:8.698889 
  temperature in degrees Celcius (°C) :16.046321 
 precipitation in cm:0.000000 
 -------------------------------------------------------------
 Month:9 
 Year:2017 
-Total GrainDeers before hunting:5
-Number of GrainDeer:2
+Total GrainDeers before hunting:7
+Number of GrainDeer:4
 Number of Hunters:7
 Number of deer hunted:3
-grain growth in cm:7.010239 
+grain growth in cm:13.169128 
  temperature in degrees Celcius (°C) :4.444110 
 precipitation in cm:5.236380 
 -------------------------------------------------------------
 Month:10 
 Year:2017 
-Total GrainDeers before hunting:6
-Number of GrainDeer:6
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:11.788900 
+Total GrainDeers before hunting:8
+Number of GrainDeer:4
+Number of Hunters:5
+Number of deer hunted:4
+grain growth in cm:15.407788 
  temperature in degrees Celcius (°C) :6.132569 
 precipitation in cm:0.920330 
 -------------------------------------------------------------
 Month:11 
 Year:2017 
-Total GrainDeers before hunting:5
-Number of GrainDeer:2
-Number of Hunters:6
+Total GrainDeers before hunting:9
+Number of GrainDeer:6
+Number of Hunters:9
 Number of deer hunted:3
-grain growth in cm:16.378114 
+grain growth in cm:22.537001 
  temperature in degrees Celcius (°C) :2.848432 
 precipitation in cm:8.804570 
 -------------------------------------------------------------
 Month:12 
 Year:2018 
-Total GrainDeers before hunting:6
-Number of GrainDeer:6
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:34.070469 
+Total GrainDeers before hunting:10
+Number of GrainDeer:9
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in cm:35.149356 
  temperature in degrees Celcius (°C) :4.406664 
 precipitation in cm:23.739009 
 -------------------------------------------------------------
 Month:13 
 Year:2018 
-Total GrainDeers before hunting:7
-Number of GrainDeer:5
-Number of Hunters:4
-Number of deer hunted:2
-grain growth in cm:38.572801 
+Total GrainDeers before hunting:11
+Number of GrainDeer:6
+Number of Hunters:11
+Number of deer hunted:5
+grain growth in cm:35.841688 
  temperature in degrees Celcius (°C) :0.635590 
 precipitation in cm:30.878246 
 -------------------------------------------------------------
 Month:14 
 Year:2018 
-Total GrainDeers before hunting:8
-Number of GrainDeer:5
-Number of Hunters:4
-Number of deer hunted:3
-grain growth in cm:35.260231 
+Total GrainDeers before hunting:12
+Number of GrainDeer:7
+Number of Hunters:6
+Number of deer hunted:5
+grain growth in cm:31.259119 
  temperature in degrees Celcius (°C) :11.889602 
 precipitation in cm:33.616795 
 -------------------------------------------------------------
 Month:15 
 Year:2018 
-Total GrainDeers before hunting:9
-Number of GrainDeer:8
-Number of Hunters:2
-Number of deer hunted:1
-grain growth in cm:28.985920 
+Total GrainDeers before hunting:13
+Number of GrainDeer:10
+Number of Hunters:6
+Number of deer hunted:3
+grain growth in cm:22.444807 
  temperature in degrees Celcius (°C) :17.458297 
 precipitation in cm:33.648944 
 -------------------------------------------------------------
 Month:16 
 Year:2018 
-Total GrainDeers before hunting:10
-Number of GrainDeer:10
-Number of Hunters:2
-Number of deer hunted:0
-grain growth in cm:18.862458 
+Total GrainDeers before hunting:12
+Number of GrainDeer:9
+Number of Hunters:12
+Number of deer hunted:3
+grain growth in cm:9.781346 
  temperature in degrees Celcius (°C) :18.361532 
 precipitation in cm:30.824599 
 -------------------------------------------------------------
 Month:17 
 Year:2018 
-Total GrainDeers before hunting:9
+Total GrainDeers before hunting:11
 Number of GrainDeer:8
-Number of Hunters:3
-Number of deer hunted:1
-grain growth in cm:6.418168 
+Number of Hunters:11
+Number of deer hunted:3
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :15.836080 
 precipitation in cm:14.903020 
 -------------------------------------------------------------
 Month:18 
 Year:2018 
-Total GrainDeers before hunting:8
-Number of GrainDeer:8
-Number of Hunters:1
-Number of deer hunted:0
+Total GrainDeers before hunting:10
+Number of GrainDeer:9
+Number of Hunters:2
+Number of deer hunted:1
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :25.109261 
 precipitation in cm:11.388402 
 -------------------------------------------------------------
 Month:19 
 Year:2018 
-Total GrainDeers before hunting:7
-Number of GrainDeer:4
-Number of Hunters:8
+Total GrainDeers before hunting:9
+Number of GrainDeer:6
+Number of Hunters:9
 Number of deer hunted:3
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :18.959037 
@@ -201,301 +201,301 @@ precipitation in cm:0.762106
 -------------------------------------------------------------
 Month:20 
 Year:2018 
-Total GrainDeers before hunting:6
+Total GrainDeers before hunting:8
 Number of GrainDeer:5
-Number of Hunters:3
-Number of deer hunted:1
+Number of Hunters:5
+Number of deer hunted:3
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :17.357657 
 precipitation in cm:1.224804 
 -------------------------------------------------------------
 Month:21 
 Year:2018 
-Total GrainDeers before hunting:5
-Number of GrainDeer:5
-Number of Hunters:1
-Number of deer hunted:0
+Total GrainDeers before hunting:7
+Number of GrainDeer:4
+Number of Hunters:3
+Number of deer hunted:3
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :8.559606 
 precipitation in cm:1.725797 
 -------------------------------------------------------------
 Month:22 
 Year:2018 
-Total GrainDeers before hunting:4
-Number of GrainDeer:0
-Number of Hunters:9
-Number of deer hunted:5
-grain growth in cm:6.976408 
+Total GrainDeers before hunting:6
+Number of GrainDeer:2
+Number of Hunters:6
+Number of deer hunted:4
+grain growth in cm:8.246408 
  temperature in degrees Celcius (°C) :3.587719 
 precipitation in cm:9.374289 
 -------------------------------------------------------------
 Month:23 
 Year:2018 
-Total GrainDeers before hunting:5
-Number of GrainDeer:5
-Number of Hunters:2
-Number of deer hunted:0
-grain growth in cm:15.279689 
+Total GrainDeers before hunting:7
+Number of GrainDeer:3
+Number of Hunters:7
+Number of deer hunted:4
+grain growth in cm:14.009689 
  temperature in degrees Celcius (°C) :0.616199 
 precipitation in cm:8.936608 
 -------------------------------------------------------------
 Month:24 
 Year:2019 
-Total GrainDeers before hunting:6
-Number of GrainDeer:6
+Total GrainDeers before hunting:8
+Number of GrainDeer:7
 Number of Hunters:1
-Number of deer hunted:0
-grain growth in cm:25.387123 
+Number of deer hunted:1
+grain growth in cm:26.657123 
  temperature in degrees Celcius (°C) :2.025053 
 precipitation in cm:21.703762 
 -------------------------------------------------------------
 Month:25 
 Year:2019 
-Total GrainDeers before hunting:7
-Number of GrainDeer:6
-Number of Hunters:1
-Number of deer hunted:1
+Total GrainDeers before hunting:9
+Number of GrainDeer:7
+Number of Hunters:2
+Number of deer hunted:2
 grain growth in cm:32.792868 
  temperature in degrees Celcius (°C) :7.319991 
 precipitation in cm:30.078871 
 -------------------------------------------------------------
 Month:26 
 Year:2019 
-Total GrainDeers before hunting:8
-Number of GrainDeer:5
-Number of Hunters:5
-Number of deer hunted:3
-grain growth in cm:32.207828 
+Total GrainDeers before hunting:10
+Number of GrainDeer:6
+Number of Hunters:10
+Number of deer hunted:4
+grain growth in cm:30.937828 
  temperature in degrees Celcius (°C) :10.052889 
 precipitation in cm:30.579546 
 -------------------------------------------------------------
 Month:27 
 Year:2019 
-Total GrainDeers before hunting:9
-Number of GrainDeer:8
-Number of Hunters:1
-Number of deer hunted:1
-grain growth in cm:28.011364 
+Total GrainDeers before hunting:11
+Number of GrainDeer:7
+Number of Hunters:11
+Number of deer hunted:4
+grain growth in cm:25.471364 
  temperature in degrees Celcius (°C) :12.649943 
 precipitation in cm:31.775134 
 -------------------------------------------------------------
 Month:28 
 Year:2019 
-Total GrainDeers before hunting:10
+Total GrainDeers before hunting:12
 Number of GrainDeer:8
-Number of Hunters:2
-Number of deer hunted:2
-grain growth in cm:17.947061 
+Number of Hunters:6
+Number of deer hunted:4
+grain growth in cm:16.677061 
  temperature in degrees Celcius (°C) :17.254753 
 precipitation in cm:30.556289 
 -------------------------------------------------------------
 Month:29 
 Year:2019 
-Total GrainDeers before hunting:9
-Number of GrainDeer:5
-Number of Hunters:5
-Number of deer hunted:4
-grain growth in cm:7.799283 
+Total GrainDeers before hunting:11
+Number of GrainDeer:8
+Number of Hunters:11
+Number of deer hunted:3
+grain growth in cm:6.529283 
  temperature in degrees Celcius (°C) :19.445038 
 precipitation in cm:16.399272 
 -------------------------------------------------------------
 Month:30 
 Year:2019 
-Total GrainDeers before hunting:8
-Number of GrainDeer:7
-Number of Hunters:3
+Total GrainDeers before hunting:10
+Number of GrainDeer:9
+Number of Hunters:0
 Number of deer hunted:1
-grain growth in cm:1.449287 
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :26.052178 
 precipitation in cm:11.096040 
 -------------------------------------------------------------
 Month:31 
 Year:2019 
-Total GrainDeers before hunting:7
-Number of GrainDeer:6
-Number of Hunters:3
-Number of deer hunted:1
+Total GrainDeers before hunting:9
+Number of GrainDeer:5
+Number of Hunters:9
+Number of deer hunted:4
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :15.103870 
 precipitation in cm:0.145701 
 -------------------------------------------------------------
 Month:32 
 Year:2019 
-Total GrainDeers before hunting:6
-Number of GrainDeer:6
-Number of Hunters:1
-Number of deer hunted:0
+Total GrainDeers before hunting:8
+Number of GrainDeer:4
+Number of Hunters:8
+Number of deer hunted:4
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :10.980396 
 precipitation in cm:1.491840 
 -------------------------------------------------------------
 Month:33 
 Year:2019 
-Total GrainDeers before hunting:5
-Number of GrainDeer:1
-Number of Hunters:9
-Number of deer hunted:4
-grain growth in cm:2.086150 
+Total GrainDeers before hunting:7
+Number of GrainDeer:4
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in cm:4.626150 
  temperature in degrees Celcius (°C) :6.311319 
 precipitation in cm:5.304688 
 -------------------------------------------------------------
 Month:34 
 Year:2019 
-Total GrainDeers before hunting:4
+Total GrainDeers before hunting:6
 Number of GrainDeer:3
-Number of Hunters:3
-Number of deer hunted:1
-grain growth in cm:6.737633 
+Number of Hunters:6
+Number of deer hunted:3
+grain growth in cm:5.467633 
  temperature in degrees Celcius (°C) :0.308406 
 precipitation in cm:4.473763 
 -------------------------------------------------------------
 Month:35 
 Year:2019 
-Total GrainDeers before hunting:3
+Total GrainDeers before hunting:5
 Number of GrainDeer:2
-Number of Hunters:1
-Number of deer hunted:1
-grain growth in cm:7.169975 
+Number of Hunters:4
+Number of deer hunted:3
+grain growth in cm:5.899975 
  temperature in degrees Celcius (°C) :-1.801069 
 precipitation in cm:11.425814 
 -------------------------------------------------------------
 Month:36 
 Year:2020 
-Total GrainDeers before hunting:4
-Number of GrainDeer:4
+Total GrainDeers before hunting:6
+Number of GrainDeer:6
 Number of Hunters:0
 Number of deer hunted:0
-grain growth in cm:5.141085 
+grain growth in cm:3.871085 
  temperature in degrees Celcius (°C) :-6.172956 
 precipitation in cm:20.974955 
 -------------------------------------------------------------
 Month:37 
 Year:2020 
-Total GrainDeers before hunting:3
-Number of GrainDeer:1
-Number of Hunters:9
-Number of deer hunted:2
-grain growth in cm:20.213715 
+Total GrainDeers before hunting:5
+Number of GrainDeer:2
+Number of Hunters:5
+Number of deer hunted:3
+grain growth in cm:16.403715 
  temperature in degrees Celcius (°C) :4.207249 
 precipitation in cm:27.439594 
 -------------------------------------------------------------
 Month:38 
 Year:2020 
-Total GrainDeers before hunting:4
-Number of GrainDeer:2
-Number of Hunters:4
-Number of deer hunted:2
-grain growth in cm:32.177379 
+Total GrainDeers before hunting:6
+Number of GrainDeer:6
+Number of Hunters:6
+Number of deer hunted:0
+grain growth in cm:27.097379 
  temperature in degrees Celcius (°C) :7.962502 
 precipitation in cm:29.637738 
 -------------------------------------------------------------
 Month:39 
 Year:2020 
-Total GrainDeers before hunting:5
+Total GrainDeers before hunting:7
 Number of GrainDeer:4
-Number of Hunters:1
-Number of deer hunted:1
-grain growth in cm:30.649762 
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in cm:20.489762 
  temperature in degrees Celcius (°C) :14.022653 
 precipitation in cm:29.562437 
 -------------------------------------------------------------
 Month:40 
 Year:2020 
-Total GrainDeers before hunting:6
-Number of GrainDeer:6
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:25.577649 
+Total GrainDeers before hunting:8
+Number of GrainDeer:5
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in cm:15.417649 
  temperature in degrees Celcius (°C) :20.010041 
 precipitation in cm:23.820339 
 -------------------------------------------------------------
 Month:41 
 Year:2020 
-Total GrainDeers before hunting:7
-Number of GrainDeer:2
+Total GrainDeers before hunting:9
+Number of GrainDeer:6
 Number of Hunters:9
-Number of deer hunted:5
-grain growth in cm:17.958654 
+Number of deer hunted:3
+grain growth in cm:9.068653 
  temperature in degrees Celcius (°C) :21.932911 
 precipitation in cm:23.552506 
 -------------------------------------------------------------
 Month:42 
 Year:2020 
 Total GrainDeers before hunting:8
-Number of GrainDeer:5
-Number of Hunters:3
-Number of deer hunted:3
-grain growth in cm:15.424859 
+Number of GrainDeer:7
+Number of Hunters:2
+Number of deer hunted:1
+grain growth in cm:1.454859 
  temperature in degrees Celcius (°C) :20.087454 
 precipitation in cm:15.064399 
 -------------------------------------------------------------
 Month:43 
 Year:2020 
-Total GrainDeers before hunting:9
-Number of GrainDeer:6
-Number of Hunters:5
+Total GrainDeers before hunting:7
+Number of GrainDeer:4
+Number of Hunters:7
 Number of deer hunted:3
-grain growth in cm:9.102710 
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :18.200048 
 precipitation in cm:8.137322 
 -------------------------------------------------------------
 Month:44 
 Year:2020 
-Total GrainDeers before hunting:8
+Total GrainDeers before hunting:6
 Number of GrainDeer:4
-Number of Hunters:8
-Number of deer hunted:4
-grain growth in cm:2.289173 
+Number of Hunters:6
+Number of deer hunted:2
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :12.734523 
 precipitation in cm:0.000000 
 -------------------------------------------------------------
 Month:45 
 Year:2020 
-Total GrainDeers before hunting:7
-Number of GrainDeer:7
+Total GrainDeers before hunting:5
+Number of GrainDeer:5
 Number of Hunters:0
 Number of deer hunted:0
-grain growth in cm:6.773395 
+grain growth in cm:4.484222 
  temperature in degrees Celcius (°C) :5.026987 
 precipitation in cm:3.512020 
 -------------------------------------------------------------
 Month:46 
 Year:2020 
-Total GrainDeers before hunting:6
-Number of GrainDeer:5
+Total GrainDeers before hunting:4
+Number of GrainDeer:2
 Number of Hunters:4
-Number of deer hunted:1
-grain growth in cm:4.943710 
+Number of deer hunted:2
+grain growth in cm:5.194538 
  temperature in degrees Celcius (°C) :7.567090 
 precipitation in cm:3.532586 
 -------------------------------------------------------------
 Month:47 
 Year:2020 
 Total GrainDeers before hunting:5
-Number of GrainDeer:2
-Number of Hunters:7
-Number of deer hunted:3
-grain growth in cm:8.142432 
+Number of GrainDeer:3
+Number of Hunters:5
+Number of deer hunted:2
+grain growth in cm:12.203259 
  temperature in degrees Celcius (°C) :1.418330 
 precipitation in cm:8.201000 
 -------------------------------------------------------------
 Month:48 
 Year:2021 
 Total GrainDeers before hunting:6
-Number of GrainDeer:5
-Number of Hunters:4
-Number of deer hunted:1
-grain growth in cm:20.248088 
+Number of GrainDeer:6
+Number of Hunters:1
+Number of deer hunted:0
+grain growth in cm:23.038916 
  temperature in degrees Celcius (°C) :1.659881 
 precipitation in cm:18.386707 
 -------------------------------------------------------------
 Month:49 
 Year:2021 
 Total GrainDeers before hunting:7
-Number of GrainDeer:7
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:27.650299 
+Number of GrainDeer:6
+Number of Hunters:4
+Number of deer hunted:1
+grain growth in cm:29.171126 
  temperature in degrees Celcius (°C) :0.976457 
 precipitation in cm:26.087814 
 -------------------------------------------------------------
@@ -503,57 +503,57 @@ Month:50
 Year:2021 
 Total GrainDeers before hunting:8
 Number of GrainDeer:7
-Number of Hunters:4
+Number of Hunters:2
 Number of deer hunted:1
-grain growth in cm:22.760050 
+grain growth in cm:25.550877 
  temperature in degrees Celcius (°C) :11.439167 
 precipitation in cm:30.490554 
 -------------------------------------------------------------
 Month:51 
 Year:2021 
 Total GrainDeers before hunting:9
-Number of GrainDeer:8
-Number of Hunters:2
-Number of deer hunted:1
-grain growth in cm:21.162899 
+Number of GrainDeer:7
+Number of Hunters:9
+Number of deer hunted:2
+grain growth in cm:23.953727 
  temperature in degrees Celcius (°C) :9.961603 
 precipitation in cm:30.382966 
 -------------------------------------------------------------
 Month:52 
 Year:2021 
 Total GrainDeers before hunting:10
-Number of GrainDeer:7
-Number of Hunters:7
-Number of deer hunted:3
-grain growth in cm:11.584969 
+Number of GrainDeer:5
+Number of Hunters:10
+Number of deer hunted:5
+grain growth in cm:15.645796 
  temperature in degrees Celcius (°C) :14.888085 
 precipitation in cm:28.893321 
 -------------------------------------------------------------
 Month:53 
 Year:2021 
-Total GrainDeers before hunting:9
-Number of GrainDeer:9
-Number of Hunters:3
-Number of deer hunted:0
-grain growth in cm:2.695113 
+Total GrainDeers before hunting:11
+Number of GrainDeer:6
+Number of Hunters:11
+Number of deer hunted:5
+grain growth in cm:9.295941 
  temperature in degrees Celcius (°C) :23.553819 
 precipitation in cm:21.408088 
 -------------------------------------------------------------
 Month:54 
 Year:2021 
-Total GrainDeers before hunting:8
-Number of GrainDeer:7
-Number of Hunters:2
-Number of deer hunted:1
-grain growth in cm:0.000000 
+Total GrainDeers before hunting:10
+Number of GrainDeer:8
+Number of Hunters:5
+Number of deer hunted:2
+grain growth in cm:1.676029 
  temperature in degrees Celcius (°C) :23.558278 
 precipitation in cm:7.292349 
 -------------------------------------------------------------
 Month:55 
 Year:2021 
-Total GrainDeers before hunting:7
-Number of GrainDeer:7
-Number of Hunters:0
+Total GrainDeers before hunting:9
+Number of GrainDeer:9
+Number of Hunters:4
 Number of deer hunted:0
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :20.736847 
@@ -561,9 +561,9 @@ precipitation in cm:5.916616
 -------------------------------------------------------------
 Month:56 
 Year:2021 
-Total GrainDeers before hunting:6
-Number of GrainDeer:5
-Number of Hunters:1
+Total GrainDeers before hunting:8
+Number of GrainDeer:7
+Number of Hunters:0
 Number of deer hunted:1
 grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :15.496021 
@@ -571,150 +571,151 @@ precipitation in cm:0.132364
 -------------------------------------------------------------
 Month:57 
 Year:2021 
-Total GrainDeers before hunting:5
-Number of GrainDeer:5
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:1.065470 
+Total GrainDeers before hunting:7
+Number of GrainDeer:4
+Number of Hunters:7
+Number of deer hunted:3
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :5.910990 
 precipitation in cm:0.795372 
 -------------------------------------------------------------
 Month:58 
 Year:2021 
-Total GrainDeers before hunting:4
-Number of GrainDeer:2
-Number of Hunters:8
+Total GrainDeers before hunting:6
+Number of GrainDeer:4
+Number of Hunters:6
 Number of deer hunted:2
-grain growth in cm:3.980062 
+grain growth in cm:4.184593 
  temperature in degrees Celcius (°C) :1.537047 
 precipitation in cm:7.233585 
 -------------------------------------------------------------
 Month:59 
 Year:2021 
-Total GrainDeers before hunting:3
-Number of GrainDeer:2
-Number of Hunters:6
+Total GrainDeers before hunting:5
+Number of GrainDeer:4
+Number of Hunters:5
 Number of deer hunted:1
-grain growth in cm:2.451013 
+grain growth in cm:0.115543 
  temperature in degrees Celcius (°C) :-4.957447 
 precipitation in cm:16.008917 
 -------------------------------------------------------------
 Month:60 
 Year:2022 
-Total GrainDeers before hunting:2
+Total GrainDeers before hunting:4
 Number of GrainDeer:2
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:0.715183 
+Number of Hunters:5
+Number of deer hunted:2
+grain growth in cm:0.000000 
  temperature in degrees Celcius (°C) :-5.466239 
 precipitation in cm:19.883527 
 -------------------------------------------------------------
 Month:61 
 Year:2022 
-Total GrainDeers before hunting:1
-Number of GrainDeer:0
-Number of Hunters:6
-Number of deer hunted:3
-grain growth in cm:6.280492 
+Total GrainDeers before hunting:3
+Number of GrainDeer:1
+Number of Hunters:3
+Number of deer hunted:2
+grain growth in cm:5.565310 
  temperature in degrees Celcius (°C) :-0.877488 
 precipitation in cm:26.357849 
 -------------------------------------------------------------
 Month:62 
 Year:2022 
-Total GrainDeers before hunting:2
-Number of GrainDeer:0
-Number of Hunters:3
+Total GrainDeers before hunting:4
+Number of GrainDeer:2
+Number of Hunters:4
 Number of deer hunted:2
-grain growth in cm:24.132238 
+grain growth in cm:22.147054 
  temperature in degrees Celcius (°C) :5.804611 
 precipitation in cm:32.099179 
 -------------------------------------------------------------
 Month:63 
 Year:2022 
-Total GrainDeers before hunting:3
+Total GrainDeers before hunting:5
 Number of GrainDeer:2
 Number of Hunters:3
-Number of deer hunted:1
-grain growth in cm:30.625330 
+Number of deer hunted:3
+grain growth in cm:26.100146 
  temperature in degrees Celcius (°C) :10.165647 
 precipitation in cm:32.599679 
 -------------------------------------------------------------
 Month:64 
 Year:2022 
-Total GrainDeers before hunting:4
-Number of GrainDeer:1
-Number of Hunters:4
-Number of deer hunted:3
-grain growth in cm:28.116203 
+Total GrainDeers before hunting:6
+Number of GrainDeer:5
+Number of Hunters:6
+Number of deer hunted:1
+grain growth in cm:23.591019 
  temperature in degrees Celcius (°C) :18.584824 
 precipitation in cm:28.080398 
 -------------------------------------------------------------
 Month:65 
 Year:2022 
-Total GrainDeers before hunting:5
-Number of GrainDeer:4
-Number of Hunters:3
-Number of deer hunted:1
-grain growth in cm:26.846217 
+Total GrainDeers before hunting:7
+Number of GrainDeer:7
+Number of Hunters:0
+Number of deer hunted:0
+grain growth in cm:17.241033 
  temperature in degrees Celcius (°C) :25.395245 
 precipitation in cm:23.341310 
 -------------------------------------------------------------
 Month:66 
 Year:2022 
 Total GrainDeers before hunting:6
-Number of GrainDeer:6
-Number of Hunters:0
-Number of deer hunted:0
-grain growth in cm:21.766239 
+Number of GrainDeer:5
+Number of Hunters:5
+Number of deer hunted:1
+grain growth in cm:8.351055 
  temperature in degrees Celcius (°C) :24.670681 
 precipitation in cm:7.258661 
 -------------------------------------------------------------
 Month:67 
 Year:2022 
-Total GrainDeers before hunting:7
-Number of GrainDeer:7
-Number of Hunters:6
-Number of deer hunted:0
-grain growth in cm:14.146314 
+Total GrainDeers before hunting:5
+Number of GrainDeer:3
+Number of Hunters:5
+Number of deer hunted:2
+grain growth in cm:2.001130 
  temperature in degrees Celcius (°C) :23.339767 
 precipitation in cm:0.732453 
 -------------------------------------------------------------
 Month:68 
 Year:2022 
-Total GrainDeers before hunting:6
-Number of GrainDeer:5
-Number of Hunters:2
+Total GrainDeers before hunting:4
+Number of GrainDeer:3
+Number of Hunters:4
 Number of deer hunted:1
-grain growth in cm:7.452206 
+grain growth in cm:0.387022 
  temperature in degrees Celcius (°C) :10.731934 
 precipitation in cm:0.719311 
 -------------------------------------------------------------
 Month:69 
 Year:2022 
-Total GrainDeers before hunting:5
-Number of GrainDeer:3
-Number of Hunters:5
-Number of deer hunted:2
-grain growth in cm:4.978078 
+Total GrainDeers before hunting:3
+Number of GrainDeer:2
+Number of Hunters:3
+Number of deer hunted:1
+grain growth in cm:0.452894 
  temperature in degrees Celcius (°C) :8.961911 
 precipitation in cm:0.055534 
 -------------------------------------------------------------
 Month:70 
 Year:2022 
-Total GrainDeers before hunting:4
-Number of GrainDeer:2
-Number of Hunters:3
-Number of deer hunted:2
-grain growth in cm:8.109699 
+Total GrainDeers before hunting:2
+Number of GrainDeer:1
+Number of Hunters:6
+Number of deer hunted:1
+grain growth in cm:4.854515 
  temperature in degrees Celcius (°C) :0.404773 
 precipitation in cm:6.642885 
 -------------------------------------------------------------
 Month:71 
 Year:2022 
-Total GrainDeers before hunting:5
-Number of GrainDeer:2
-Number of Hunters:6
-Number of deer hunted:3
-grain growth in cm:17.192911 
+Total GrainDeers before hunting:3
+Number of GrainDeer:1
+Number of Hunters:3
+Number of deer hunted:2
+grain growth in cm:15.207727 
  temperature in degrees Celcius (°C) :3.253805 
 precipitation in cm:7.213342 
+
