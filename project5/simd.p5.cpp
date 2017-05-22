@@ -86,6 +86,8 @@ SimdMulSum( float *a, float *b, int len )
 	return sum[0] + sum[1] + sum[2] + sum[3];
 }
 
+
+
 int main(int argc, char const *argv[])
 {
 	double maxMegaMults = 0.;
@@ -112,7 +114,14 @@ int main(int argc, char const *argv[])
 
     printf( "Peak Performance with SIMD= %8.2lf MegaMults/Sec\n", maxMegaMults );
     printf( "Average Performance with SIMD = %8.2lf MegaMults/Sec\n", avgMegaMults );
-    
+    if (avgMegaMults<=maxMegaMults+maxMegaMults*0.2 || avgMegaMults<=maxMegaMults-maxMegaMults*2)
+	{
+		printf("Within 20 percent\n");
+	}
+	else
+	{
+		printf("Not within 20 percent\n");
+	}
     //NONSIMD
     maxMegaMults = 0.;
     sumMegaMults = 0.;
@@ -140,7 +149,14 @@ int main(int argc, char const *argv[])
 
     printf( "Peak Performance without SIMD= %8.2lf MegaMults/Sec\n", maxMegaMults );
     printf( "Average Performance without SIMD = %8.2lf MegaMults/Sec\n", avgMegaMults );
-
+    	if (avgMegaMults==maxMegaMults+maxMegaMults*0.2 || avgMegaMults==maxMegaMults-maxMegaMults*2)
+	{
+		printf("Within 20 percent\n");
+	}
+	else
+	{
+		printf("Not within 20 percent\n");
+	}
     printf("SpeedUp:%8.2lf\n",nonSimdMultime/SimdMultime);
 	return 0;
 }
