@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo arraysize>>p52.txt
-awk -F: '/Arraysize/ {print $2}' text1.txt>>p52.txt
+awk -F: '/Arraysize/ {print $2}' text2.txt>>p52.txt
 echo speedup by ext>>p52.txt
-awk -F: '/SpeedUp by execution time/ {print $2}' text1.txt>>p52.txt
+awk -F: '/SpeedUp by execution time/ {print $2}' text2.txt>>p52.txt
 echo speedup by perf>>p52.txt
-awk -F: '/SpeedUp by performance/ {print $2}' text1.txt>>p52.txt
+awk -F: '/SpeedUp by performance/ {print $2}' text2.txt>>p52.txt
