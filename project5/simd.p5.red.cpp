@@ -109,11 +109,11 @@ int main(int argc, char const *argv[])
     sumMegaMults = 0.;
     double SimdMultime = 0.;
 
-    for( int t = 0; t < NUMTRIES; t++ )
+   for( int t = 0; t < NUMTRIES; t++ )
 	{
         double time0 = omp_get_wtime( );
        
-      		SimdMul(a,b,c,ARRAYSIZE);
+      		SimdMulSum(a,b,ARRAYSIZE);
         
 
         double time1 = omp_get_wtime( );
@@ -124,7 +124,7 @@ int main(int argc, char const *argv[])
         	maxMegaMults = megaMults;
         }
         SimdMultime=time1-time0;
-    }
+  }
     avgMegaMults = sumMegaMults/(double)NUMTRIES;
 
     printf( "Peak Performance with SIMD= %8.2lf MegaMults/Sec\n", maxMegaMults );
@@ -140,7 +140,7 @@ int main(int argc, char const *argv[])
         double time2 = omp_get_wtime( );
         for( int i = 0; i < ARRAYSIZE; i++ )
         {
-        	c[i] = a[i] * b[i];
+        	c[i] += a[i] * b[i];
         }
 
         double time3 = omp_get_wtime( );
