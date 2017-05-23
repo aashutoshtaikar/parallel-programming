@@ -10,6 +10,8 @@ float c[ARRAYSIZE];
 double maxMegaMults;
 double sumMegaMults;
 double avgMegaMults;
+double peakperfsse;
+double peakperfnonsse;
 
 void
 SimdMul( float *a, float *b,   float *c,   int len )
@@ -107,6 +109,7 @@ int main(int argc, char const *argv[])
 {
 	maxMegaMults = 0.;
     sumMegaMults = 0.;
+    peakperfsse = 0.;
     double SimdMultime = 0.;
 
     for( int t = 0; t < NUMTRIES; t++ )
@@ -126,13 +129,16 @@ int main(int argc, char const *argv[])
         SimdMultime=time1-time0;
     }
     avgMegaMults = sumMegaMults/(double)NUMTRIES;
-
+    peakperfsse=maxMegaMults;
     printf( "Peak Performance with SIMD= %8.2lf MegaMults/Sec\n", maxMegaMults );
     printf( "Average Performance with SIMD = %8.2lf MegaMults/Sec\n", avgMegaMults );
     percentcheck();
+    
     //NONSIMD
     maxMegaMults = 0.;
     sumMegaMults = 0.;
+    peakperfnonsse=0.;
+
     double nonSimdMultime = 0.;
 
     for( int t = 0; t < NUMTRIES; t++ )
@@ -154,10 +160,11 @@ int main(int argc, char const *argv[])
     }
 
     avgMegaMults = sumMegaMults/(double)NUMTRIES;
-
+    peakperfnonsse=maxMegaMults;
     printf( "Peak Performance without SIMD= %8.2lf MegaMults/Sec\n", maxMegaMults );
     printf( "Average Performance without SIMD = %8.2lf MegaMults/Sec\n", avgMegaMults );
     percentcheck();
-    printf("SpeedUp:%8.2lf\n",nonSimdMultime/SimdMultime);
+    printf("SpeedUp by execution time:%8.2lf\n",nonSimdMultime/SimdMultime);
+    printf("SpeedUp by performance:%8.2lf\n",peakperfsse/peakperfnonsse);
 	return 0;
 }

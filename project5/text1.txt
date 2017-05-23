@@ -1,0 +1,144 @@
+Arraysize:1000
+Peak Performance with SIMD=  1501.51 MegaMults/Sec
+Average Performance with SIMD =  1200.58 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   324.89 MegaMults/Sec
+Average Performance without SIMD =   318.16 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    4.15
+SpeedUp by performance:    4.62
+Arraysize:10000
+Peak Performance with SIMD=  1548.71 MegaMults/Sec
+Average Performance with SIMD =  1371.28 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   293.62 MegaMults/Sec
+Average Performance without SIMD =   291.01 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    5.35
+SpeedUp by performance:    5.27
+Arraysize:20000
+Peak Performance with SIMD=  1468.86 MegaMults/Sec
+Average Performance with SIMD =  1326.34 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   331.18 MegaMults/Sec
+Average Performance without SIMD =   281.19 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    4.44
+SpeedUp by performance:    4.44
+Arraysize:40000
+Peak Performance with SIMD=  1373.96 MegaMults/Sec
+Average Performance with SIMD =  1132.38 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   273.92 MegaMults/Sec
+Average Performance without SIMD =   251.22 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    5.49
+SpeedUp by performance:    5.02
+Arraysize:60000
+Peak Performance with SIMD=   329.10 MegaMults/Sec
+Average Performance with SIMD =   295.62 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=    82.86 MegaMults/Sec
+Average Performance without SIMD =    80.59 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    4.14
+SpeedUp by performance:    3.97
+Arraysize:80000
+Peak Performance with SIMD=   296.08 MegaMults/Sec
+Average Performance with SIMD =   264.29 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=    69.13 MegaMults/Sec
+Average Performance without SIMD =    60.47 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    4.52
+SpeedUp by performance:    4.28
+Arraysize:100000
+Peak Performance with SIMD=   281.71 MegaMults/Sec
+Average Performance with SIMD =   250.19 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=    66.68 MegaMults/Sec
+Average Performance without SIMD =    55.97 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    5.62
+SpeedUp by performance:    4.22
+Arraysize:200000
+Peak Performance with SIMD=  1218.63 MegaMults/Sec
+Average Performance with SIMD =  1085.35 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   228.81 MegaMults/Sec
+Average Performance without SIMD =   198.81 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    5.90
+SpeedUp by performance:    5.33
+Arraysize:400000
+Peak Performance with SIMD=   284.58 MegaMults/Sec
+Average Performance with SIMD =   250.67 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   182.63 MegaMults/Sec
+Average Performance without SIMD =   112.08 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    1.30
+SpeedUp by performance:    1.56
+Arraysize:600000
+Peak Performance with SIMD=   994.73 MegaMults/Sec
+Average Performance with SIMD =   861.44 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   233.12 MegaMults/Sec
+Average Performance without SIMD =   218.18 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    4.06
+SpeedUp by performance:    4.27
+Arraysize:800000
+Peak Performance with SIMD=   682.33 MegaMults/Sec
+Average Performance with SIMD =   357.24 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   345.66 MegaMults/Sec
+Average Performance without SIMD =   258.04 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    1.97
+SpeedUp by performance:    1.97
+Arraysize:1000000
+Peak Performance with SIMD=   423.46 MegaMults/Sec
+Average Performance with SIMD =   354.54 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   309.90 MegaMults/Sec
+Average Performance without SIMD =   204.39 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    1.48
+SpeedUp by performance:    1.37
+Arraysize:4000000
+Peak Performance with SIMD=   888.76 MegaMults/Sec
+Average Performance with SIMD =   603.93 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   360.61 MegaMults/Sec
+Average Performance without SIMD =   310.62 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    1.44
+SpeedUp by performance:    2.46
+Arraysize:8000000
+Peak Performance with SIMD=   827.37 MegaMults/Sec
+Average Performance with SIMD =   560.01 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   367.42 MegaMults/Sec
+Average Performance without SIMD =   323.04 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    1.97
+SpeedUp by performance:    2.25
+Arraysize:10000000
+Peak Performance with SIMD=  1403.93 MegaMults/Sec
+Average Performance with SIMD =  1178.08 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   372.22 MegaMults/Sec
+Average Performance without SIMD =   321.86 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    3.70
+SpeedUp by performance:    3.77
+Arraysize:20000000
+Peak Performance with SIMD=  1358.43 MegaMults/Sec
+Average Performance with SIMD =   763.50 MegaMults/Sec
+Within 20 percent
+Peak Performance without SIMD=   371.37 MegaMults/Sec
+Average Performance without SIMD =   360.56 MegaMults/Sec
+Within 20 percent
+SpeedUp by execution time:    2.13
+SpeedUp by performance:    3.66
