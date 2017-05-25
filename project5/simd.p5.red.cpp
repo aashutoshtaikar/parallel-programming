@@ -6,7 +6,8 @@
 
 float a[ARRAYSIZE];
 float b[ARRAYSIZE];
-float c[ARRAYSIZE];
+//float c[ARRAYSIZE];
+float sum;
 double maxMegaMults;
 double sumMegaMults;
 double avgMegaMults;
@@ -134,13 +135,12 @@ int main(int argc, char const *argv[])
     maxMegaMults = 0.;
     sumMegaMults = 0.;
     double nonSimdMultime = 0.;
-
     for( int t = 0; t < NUMTRIES; t++ )
 	{
         double time2 = omp_get_wtime( );
         for( int i = 0; i < ARRAYSIZE; i++ )
         {
-        	c[i] += a[i] * b[i];
+        	sum += a[i] * b[i];
         }
 
         double time3 = omp_get_wtime( );
@@ -150,8 +150,8 @@ int main(int argc, char const *argv[])
         {
         	maxMegaMults = megaMults;
         }    
-        nonSimdMultime=time3-time2;
-    }
+        nonSimdMultime=time3-time2;	
+  }
 
     avgMegaMults = sumMegaMults/(double)NUMTRIES;
 
