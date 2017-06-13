@@ -1,7 +1,4 @@
 #!/bin/bash
-echo arraysize>>p5.txt
-awk -F: '/Arraysize/ {print $2}' text1.txt>>p5.txt
-echo speedup by ext>>p5.txt
-awk -F: '/SpeedUp by execution time/ {print $2}' text1.txt>>p5.txt
-echo speedup by perf>>p5.txt
-awk -F: '/SpeedUp by performance/ {print $2}' text1.txt>>p5.txt
+
+awk -F: '/i11.miss_rate/ {print $2}' text1.txt>>p5.txt
+
